@@ -1,4 +1,4 @@
-FROM almalinux:8
+FROM nginx:1.24.0-alpine3.17-slim
 #CMD ["sleep", "infinity"]d:\Download\frontend
 RUN dnf -y update && dnf -y install nginx -y
 
